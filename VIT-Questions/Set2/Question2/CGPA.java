@@ -1,0 +1,3 @@
+interface CGPA{
+    double getCGPA();
+}

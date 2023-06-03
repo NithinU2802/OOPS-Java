@@ -1,4 +1,4 @@
-Consider the database with the following description
+1. Consider the database with the following description
 
          int Acc_Num: To store the accession number of the book
          String Title: To stroe the title of the book and the name of the author
