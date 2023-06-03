@@ -23,17 +23,18 @@ class demo{
     }
 }
 
-public class Main extends demo
+public class Modifiers extends demo
 {
     private static String s; //private
 	public static void main(String[] args) {
-	Scanner x=new Scanner(System.in);
-	a=x.nextInt();
-	x.nextLine();
-	s=x.nextLine();
-	Main m=new Main();
+	try (Scanner x = new Scanner(System.in)) {
+		a=x.nextInt();
+		x.nextLine();
+		s=x.nextLine();
+	}
+	// Modifiers m=new Modifiers();
 	System.out.println(a);
-	System.out.println(m.s);
+	System.out.println(Modifiers.s);
 	print();
 	}
 }
