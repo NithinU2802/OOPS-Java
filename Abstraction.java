@@ -3,7 +3,6 @@
         Implementation of Abstraction 
 
 *******************************************************************************/
-import java.util.*;
 
 abstract class Animal{
     void print(){

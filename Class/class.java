@@ -14,7 +14,7 @@ storm
 
 import java.util.*;
 
-public class Main
+public class Class
 {
     static int a;
     static String s;
@@ -23,7 +23,7 @@ public class Main
 	a=x.nextInt();
 	x.nextLine();
 	s=x.nextLine();
-	Main m=new Main();
+	Class m=new Class();
 	System.out.println(m.a);
 	System.out.println(m.s);
 	}
