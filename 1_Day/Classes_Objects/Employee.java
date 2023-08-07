@@ -1,4 +1,4 @@
-public class Employee {
+class Employee {
 
     private String name="Nithin";
     private int age=21;
