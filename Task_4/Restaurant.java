@@ -41,9 +41,9 @@ class FoodRatings {
 class Restaurant{
     public static void main(String[] arg){
         Scanner x=new Scanner(System.in);
-        String[] food=new String[]{"cpctxzh","bryvgjqmj","wedqhqrmyc","ee","lafzximxh","lojzxfel","flhs"};
-        String[] cuisines=new String[]{"wbhdgqphq","wbhdgqphq","mxxajogm","wbhdgqphq","wbhdgqphq","mxxajogm","mxxajogm"};
-        int[] ratings=new int[]{15,5,7,16,16,10,13};
+        String[] food={"cpctxzh","bryvgjqmj","wedqhqrmyc","ee","lafzximxh","lojzxfel","flhs"};
+        String[] cuisines={"wbhdgqphq","wbhdgqphq","mxxajogm","wbhdgqphq","wbhdgqphq","mxxajogm","mxxajogm"};
+        int[] ratings={15,5,7,16,16,10,13};
         FoodRatings fr=new FoodRatings(food,cuisines,ratings);
         fr.changeRating("lojzxfel",1);
         System.out.println(fr.highestRated("mxxajogm"));
